@@ -1,0 +1,59 @@
+.homeSection {
+  padding: 100px 0;
+  color: #fff;
+}
+.homeSection h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.homeSection p {
+  color: #b6b5b5;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.homeSection a {
+  color: #b6b5b5;
+}
+.homeSection a svg {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.typewriter {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.typewriterText {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing 5s steps(30, end) infinite, blink 0.75s step-end infinite;
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: 700;
+  border-right: 4px solid var(--low-white-color);
+  color: var(--low-white-color);
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--low-white-color);
+  }
+}

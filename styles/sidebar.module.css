@@ -1,0 +1,51 @@
+.sidebar {
+  height: 100vh;
+  background: rgb(57 57 57 / 5%);
+  padding-top: 100px;
+}
+.sidebar div {
+  padding: 20px;
+}
+.sidebar div a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: #b6b5b5;
+  transition: 0.3s;
+  font-size: 21px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.sidebar div a:hover {
+  color: #fff;
+}
+.sidebar div a svg {
+  margin-right: 7px;
+}
+.sidebar div .letsTalk {
+  background-color: #323232;
+  transition: 0.3s;
+}
+.sidebar div .letsTalk:hover {
+  background-color: #fff;
+  color: var(--black-color);
+}
+@media screen and (max-width: 760px) {
+  .sidebar div a svg {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .sidebar div a {
+    text-align: center;
+  }
+  .sidebar div a span {
+    display: block;
+  }
+  .sidebar div a span {
+    font-size: 15px;
+  }
+  .sidebar div {
+    padding: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.skillsSection {
+  padding: 50px 0;
+}
+.skillsSection h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.skillsSection .card {
+  background: linear-gradient(
+    120deg,
+    rgb(134 134 134 / 30%),
+    rgba(255, 255, 255, 0.05)
+  );
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skillsSection .card img {
+  height: 100px;
+  width: 106px;
+  object-fit: cover;
+}

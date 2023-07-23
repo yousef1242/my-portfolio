@@ -1,0 +1,35 @@
+.talkSection {
+  padding: 50px 0;
+}
+.talkSection .card {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  border-radius: 3px;
+}
+.talkSection .card .iconDiv{
+    height: 100px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--low-white-color);
+    border-radius: 3px 0 0 3px;
+    font-size: 27px;
+    color: #fff;
+}
+.talkSection .card .wayOfTalkDiv{
+    overflow: scroll;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.talkSection .card .wayOfTalkDiv::-webkit-scrollbar{
+    display: none;
+}
+.talkSection .card .wayOfTalkDiv a{
+    font-size: 17px;
+    color: var(--black-color);
+}

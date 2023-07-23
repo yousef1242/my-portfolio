@@ -1,0 +1,12 @@
+.aboutSection {
+  padding: 50px 0;
+}
+.aboutSection h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.aboutSection p {
+  color: var(--low-white-color);
+  line-height: 2.1;
+}
