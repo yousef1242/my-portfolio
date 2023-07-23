@@ -2,7 +2,7 @@ import Head from "next/head";
 import Sidebar from "@/components/Sidebar";
 import HomeSection from "@/components/HomeSection";
 import AboutSection from "@/components/AboutSection";
-import classes from "../styles/home.module.css"
+import classes from "../styles/homePage.module.css"
 import SkillsSection from "@/components/SkillsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import TalkSection from "@/components/TalkSection";
