@@ -18,7 +18,7 @@ export default function Home() {
       <main>
         <div className="row m-0">
           <Sidebar />
-          <div className={`col-9`}>
+          <div className={`col-9 ${classes.rightDiv}`}>
             <HomeSection />
             <AboutSection />
             <SkillsSection/>
