@@ -40,36 +40,6 @@ const TalkSection = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-sm-6 mb-4">
-              <div className={`card ${classes.card}`}>
-                <div className={classes.iconDiv}>
-                  <FontAwesomeIcon icon={faInstagram} />
-                </div>
-                <div className={classes.wayOfTalkDiv}>
-                  <Link
-                    href={`https://www.instagram.com/fluxetech/`}
-                    target="_blank"
-                  >
-                    https://www.instagram.com/fluxetech/
-                  </Link>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="col-12 col-sm-6 mb-4">
-              <div className={`card ${classes.card}`}>
-                <div className={classes.iconDiv}>
-                  <FontAwesomeIcon icon={faFacebook} />
-                </div>
-                <div className={classes.wayOfTalkDiv}>
-                  <Link
-                    href={`https://www.facebook.com/profile.php?id=100089912867862`}
-                    target="_blank"
-                  >
-                    https://www.facebook.com/profile.php?id=100089912867862
-                  </Link>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
