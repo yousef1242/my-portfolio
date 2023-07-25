@@ -19,11 +19,8 @@ const TalkSection = () => {
                   <FontAwesomeIcon icon={faEnvelopeCircleCheck} />
                 </div>
                 <div className={classes.wayOfTalkDiv}>
-                  <Link
-                    href={`mailto:yousefahmedelshahed@gmail.com`}
-                    target="_blank"
-                  >
-                    yousefahmedelshahed@gmail.com
+                  <Link href={`mailto:fluxetech@gmail.com`} target="_blank">
+                    fluxetech@gmail.com
                   </Link>
                 </div>
               </div>
