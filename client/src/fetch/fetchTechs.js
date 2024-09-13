@@ -9,7 +9,7 @@ export const fetchTechs = async () => {
 
   try {
     const response = await fetch(url,{
-        cache:"no-store"
+        cache:"no-cache"
     });
     
     if (!response.ok) {
