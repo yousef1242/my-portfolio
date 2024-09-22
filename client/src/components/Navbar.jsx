@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logo from "../app/assets/logo.png";
+import logo from "../public/assets/logo.png";
 import Link from "next/link";
 import { useState } from "react";
 import Button from "./ui/Button";

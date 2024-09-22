@@ -25,14 +25,13 @@ export const metadata = {
     title: "Yousef Ahmed | Expert Frontend Developer",
     description:
       "Professional frontend development services specializing in React.js, Next.js, and Tailwind CSS.",
-    url: "https://yousefahmed.online",
+    url: "https://yousef-ahmed.website",
     type: "website",
   },
   viewport: "width=device-width, initial-scale=1.0",
   charset: "UTF-8",
-  canonical: "https://yousefahmed.online",
+  canonical: "https://yousef-ahmed.website",
   author: "Yousef Ahmed",
-  icons: { icon: "./assets/logo.png" },
   verification: {
     google: "sapCEIed7jM18QHTuG1EVZXDAQus74Ux0ch5o_DO0D4"
   },
@@ -41,10 +40,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" style={{ background: "#0a0a0a", color: "#ededed" }}>
+    <head>
+    <link rel="icon" href="../public/assets/logo.png" sizes="any" />
+    </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blackcolor overflow-x-hidden max-w-full scroll-smooth relative`}
       >
-        <div className="overlay-squares absolute top-0 left-0 w-full h-full z-[-1] invert bg-[url(../app/assets/squares-bg.png)]"></div>
+        <div className="overlay-squares absolute top-0 left-0 w-full h-full z-[-1] invert bg-[url(../assets/squares-bg.png)]"></div>
         <Navbar />
         {children}
         <Contact />

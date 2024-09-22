@@ -1,5 +1,5 @@
 import Link from "next/link";
-import arrowIcon from "../app/assets/arrowIcon.svg";
+import arrowIcon from "../public/assets/arrowIcon.svg";
 import Image from "next/image";
 
 function Experiences({ experiencesData }) {

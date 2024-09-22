@@ -23,8 +23,8 @@ function StoriesSwiper({ storiesData }) {
                 </span>
               </div>
               <div className="swiper-shape flex mb-5">
-                <div class="w-0 h-0 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-b-[25px] border-b-openpurple rotate-[360deg]"></div>
-                <div class="w-0 h-0 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-b-[25px] border-b-openpurple rotate-[180deg]"></div>
+                <div className="w-0 h-0 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-b-[25px] border-b-openpurple rotate-[360deg]"></div>
+                <div className="w-0 h-0 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-b-[25px] border-b-openpurple rotate-[180deg]"></div>
               </div>
               <div className="swiper-text font-semibold mb-5">{item?.text}</div>
               <div className="swiper-company-name">

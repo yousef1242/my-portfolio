@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../app/assets/logo.png";
+import logo from "../public/assets/logo.png";
 
 function Footer() {
   return (
