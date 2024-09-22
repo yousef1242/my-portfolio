@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { urlFor } from "../../sanityClient";
-import arrowIcon from "../assets/arrowIcon.svg";
+import arrowIcon from "../public/assets/arrowIcon.svg";
 import Link from "next/link";
 
 function ProjectsCards({ projectsData }) {
