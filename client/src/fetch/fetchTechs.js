@@ -1,6 +1,6 @@
-const projectId = 'xxlhhl9o'; // Replace with your Sanity project ID
-const dataset = 'production'; // Replace with your dataset name
-const apiVersion = 'v2021-10-21'; // Replace with the API version you are using
+const projectId = process.env.SANITY_STUDIO_PROJECT_ID;
+const dataset = process.env.SANITY_STUDIO_DATASET; 
+const apiVersion = 'v2021-10-21';
 
 export const fetchTechs = async () => {
   const query = encodeURIComponent('*[_type == "techs"]{name}');

@@ -32,7 +32,10 @@ export const metadata = {
   charset: "UTF-8",
   canonical: "https://yousefahmed.online",
   author: "Yousef Ahmed",
-  icons: { icon: ["./assets/logo.png"] },
+  icons: { icon: "./assets/logo.png" },
+  verification: {
+    google: "sapCEIed7jM18QHTuG1EVZXDAQus74Ux0ch5o_DO0D4"
+  },
 };
 
 export default function RootLayout({ children }) {
