@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
     <link rel="icon" href="../app/assets/logo.png" sizes="any" />
     </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blackcolor overflow-x-hidden max-w-full px-10 scroll-smooth relative`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blackcolor overflow-x-hidden max-w-full px-4 sm:px-10 scroll-smooth relative`}
       >
         <div className="overlay-squares absolute top-0 left-0 w-full h-full z-[-1] invert bg-[url(../app/assets/squares-bg.png)]"></div>
         <Navbar />
