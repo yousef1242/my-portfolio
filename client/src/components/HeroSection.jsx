@@ -3,7 +3,7 @@ import Button from "./ui/Button";
 function HeroSection() {
   return (
     <section className="wrapper_section min-h-screen pt-40 pb-20 overflow-hidden">
-      <div className="container mx-auto px-4 h-full">
+      <div className="container">
         <section className="hero_section mb-20">
           <div className="flex items-start">
             <div className="hero-content flex flex-col gap-y-5 w-full md:w-8/12">

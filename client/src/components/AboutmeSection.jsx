@@ -3,7 +3,7 @@ import Techs from "./Techs";
 function AboutmeSection({ techsData }) {
   return (
     <section id="about" className="about_section py-20 relative overflow-hidden">
-      <div className="container mx-auto px-4 relative">
+      <div className="container relative">
         <div className="about-title text-center flex items-end justify-start mb-10">
           <h1 className="font-bold text-5xl md:w-auto bg-gradient-to-r from-openpurple to-white text-transparent bg-clip-text">
             About Me

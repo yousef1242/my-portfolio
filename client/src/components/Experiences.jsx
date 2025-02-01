@@ -5,7 +5,7 @@ import Image from "next/image";
 function Experiences({ experiencesData }) {
   return (
     <section className="work-experience_section py-20 overflow-hidden relative">
-      <div className="container mx-auto px-4 h-full relative">
+      <div className="container relative">
         <div className="work-experience-title flex items-end justify-start mb-10">
           <h1 className="font-bold text-5xl md:w-auto bg-gradient-to-r from-openpurple to-primary-white text-transparent bg-clip-text">
             Work Experience

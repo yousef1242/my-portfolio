@@ -5,7 +5,7 @@ import StoriesSwiper from "./StoriesSwiper";
 function ClientsStories({storiesData}) {
   return (
     <section className="stories_section py-20">
-      <div className="container mx-auto px-4 h-full">
+      <div className="container h-full">
         <div className="flex flex-wrap space-y-10 lg:space-y-0">
           <div className="stories-title w-full lg:w-5/12">
             <h1 className="font-bold text-5xl md:w-auto">

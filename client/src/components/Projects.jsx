@@ -4,7 +4,7 @@ import Button from "./ui/Button";
 function Projects({ projectsData, moreLink }) {
   return (
     <section className="projects_ssection py-20 overflow-hidden relative">
-      <div className="container mx-auto px-4 relative">
+      <div className="container relative">
         <div className="projects-title mb-10">
           <h1 className="font-bold text-5xl md:w-auto">
             <span className="bg-gradient-to-r from-openpurple to-primary-white text-transparent bg-clip-text">

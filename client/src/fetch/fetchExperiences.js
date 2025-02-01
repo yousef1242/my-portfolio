@@ -16,7 +16,7 @@ export const fetchExperiences = async () => {
     }
     const data = await response.json();
 
-    return data.result; // Adjust based on the structure of the response
+    return data.result;
   } catch (error) {
     console.error("Error fetching techs:", error);
     return [];

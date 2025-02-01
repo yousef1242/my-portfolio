@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function Button({text, to}) {
+function Button({ text, to }) {
   return (
     <Link href={to} target="_blank" className="relative inline-flex items-center gap-3 w-fit bg-[#7808d0] text-white font-semibold py-3 px-6 rounded-full transition-colors duration-300 hover:bg-black">
       <span className="relative flex items-center justify-center w-6 h-6 bg-white text-[#7808d0] rounded-full overflow-hidden">
