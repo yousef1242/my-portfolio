@@ -40,15 +40,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" style={{ background: "#0a0a0a", color: "#ededed" }}>
-    <head>
-    <link rel="icon" href="../app/assets/logo.png" sizes="any" />
-    </head>
+      <head>
+        <link rel="icon" href="../app/assets/logo.png" sizes="any" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blackcolor overflow-x-hidden max-w-full px-4 sm:px-10 scroll-smooth relative`}
       >
         <div className="overlay-squares absolute top-0 left-0 w-full h-full z-[-1] invert bg-[url(../app/assets/squares-bg.png)]"></div>
         <Navbar />
-        {children}
+        <div className="mx-auto w-full lg:w-10/12">
+          {children}
+        </div>
         <Contact />
         <Footer />
       </body>
