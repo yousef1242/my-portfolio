@@ -8,15 +8,16 @@ function ProjectsCards({ projectsData }) {
     <div className="projects-cards">
       <div className="flex flex-wrap">
         {projectsData?.length > 0 ? (
-          projectsData?.map((item, index) => (
-            <div key={item?._id} className="project-card p-3 w-full md:w-6/12">
+          projectsData?.map((item) => (
+            <Link href={item?.websiteLink} target="_blank" key={item?._id} className="project-card p-3 w-full md:w-6/12">
               <div className="relative cursor-pointer w-full bg-primary-black p-5 rounded-xl h-auto shadow-xl shadow-primary-white/5 transition hover:border-openpurple hover:border">
                 <div className="project-image mb-3">
                   <Image
                     src={urlFor(item?.projectImage).url()}
-                    className="h-full rounded-xl"
+                    className="rounded-xl object-cover h-full md:h-[300px]"
                     width={10000}
                     height={1000}
+                    loading="lazy"
                     alt="Project Image"
                   />
                 </div>
@@ -35,7 +36,7 @@ function ProjectsCards({ projectsData }) {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))
         ) : (
           <p className="text-openpurple">Loading projects</p>
